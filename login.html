@@ -1,0 +1,72 @@
+<!-- 
+ 
+Jay Shree Ganesha
+Jay Shree Ram
+Jay Shree Krishna
+Har Har Mahadev
+Jay Banrangbali
+Jay Shree Swaminarayana
+Jay Mataji
+
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Naytri Resto — Login</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- font awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!-- custome CSS -->
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <main class="container-split">
+    <div class="card-wrap" data-aos="fade-left" data-aos-duration="0">
+      <div class="left-visual" data-aos="fade-right" data-aos-duration="1200">
+      </div>
+      <div class="right-form" data-aos="fade-left" data-aos-duration="1200">
+        <div class="brand">
+          <div class="logo">
+            <img src="img/logo.png" alt="Naytri Logo">
+          </div>
+          <div class="brand-txt">
+            <div class="form-title">Sign in to Naytri Resto</div>
+            <div class="form-sub">Enter credentials to continue</div>
+          </div>
+        </div>
+        <form autocomplete="on" novalidate>
+          <div class="mb-3">
+            <label for="email" class="form-label small-muted">Email</label>
+            <input id="email" name="email" type="email" class="form-control" placeholder="you@restaurant.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label small-muted">Password</label>
+            <input id="password" name="password" type="password" class="form-control" placeholder="Your password" required>
+          </div>
+          <div class="d-flex justify-content-center align-items-center mb-3">
+            <div><a href="#" class="small-muted" style="color:var(--primary-color);text-decoration:none">Forgot Password?</a></div>
+          </div>
+          <button type="submit" class="naytri-btn w-100">Login</button>
+          <div class="info-text text-center">New to Naytri Resto? <a href="#" style="color:var(--primary-color);text-decoration:none">Create account</a></div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <!-- bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({once:false,mirror:true});
+  </script>
+</body>
+</html>
